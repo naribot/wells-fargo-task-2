@@ -27,11 +27,11 @@ public class Entrypoint {
     {
         return (args) -> {
             // Create and save advisor
-            Advisor advisor = new Advisor("Alice", "Johnson", "123 Wall St", "555-9876", "alice.j@email.com");
+            Advisor advisor = new Advisor("Nati", "ABr", "123 Ypsi St", "555-9876", "Nati.j@email.com");
             advisorRepo.save(advisor);
 
             // Create and save client
-            Client client = new Client("Bob", "Miller", "456 Main Ave", "555-1111", "bob.m@email.com", advisor);
+            Client client = new Client("Hasset", "ADm", "456 Best Ave", "555-1111", "Hassu.m@email.com", advisor);
             clientRepo.save(client);
 
             // Create and save
